@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  color: #edf2f7;
+  background: #080c12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --bg: #080c12;
+  --panel: #101720;
+  --panel-raised: #141d27;
+  --line: #202c38;
+  --muted: #82909d;
+  --muted-light: #aab5bf;
+  --text: #edf2f7;
+  --accent: #c9fa58;
+  --cyan: #62d6d5;
+  --danger: #ff7777;
+  --mono: 'DM Mono', monospace;
+  --display: 'Space Grotesk', 'Manrope', sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 360px; min-height: 100vh; background: var(--bg); }
+button, input, select, textarea { font: inherit; }
+button { color: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+::selection { color: #0c1112; background: var(--accent); }
